@@ -1,0 +1,108 @@
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eceff1;
+    text-align: center;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #1e272e;
+    color: white;
+    padding: 1.5em 0;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 80%;
+}
+
+h1, h2 {
+    color: #1e272e;
+}
+
+p {
+    color: #2f3542;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-weight: 500;
+    color: #57606f;
+}
+
+form {
+    margin-top: 2em;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced6e0;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1e272e;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2f3542;
+}
+
+/* Redes sociales */
+.social a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1e272e;
+    color: white;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
